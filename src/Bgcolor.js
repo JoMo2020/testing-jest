@@ -5,7 +5,7 @@ class Bgcolor extends React.Component {
       color: 'blue'
     }
     onChange = () => {
-       this.setState({ color: 'green' });
+       this.setState({ color: 'green' | 'blue' });
     }
     render () {
       return (
